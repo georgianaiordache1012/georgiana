@@ -28,7 +28,7 @@ const ImageSlider = () => {
 
     return (
         <div className='flex flex-col justify-between h-screen m-auto w-full'>
-            <div className='flex justify-between px-32 group'>
+            <div className='flex justify-between px-32 group justify-evenly justify-between'>
                 <div>
                     <BsChevronCompactLeft className='text-5xl rounded-full p-2 group-hover:bg-indigo-900 text-white cursor-pointer' onClick={prevSlide} size={50}/>
                 </div>
@@ -42,7 +42,7 @@ const ImageSlider = () => {
                                     key={index}
                                     className={
                                         index === currentSlide
-                                            ? "w-40 h-40 object-center"
+                                            ? "object-center lg:w-40 lg:h-40 sm:w-20 sm:h-20"
                                             : "hidden"
                                     }
                                 />

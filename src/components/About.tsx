@@ -9,7 +9,7 @@ export function About(): JSX.Element {
     const handleClick = () => {
         setNav(!nav);
     }
-    const {ref} = useParallax<HTMLDivElement>({speed: 20});
+    const {ref} = useParallax<HTMLDivElement>({speed: 10});
 
     return (<div>
             <div id='about' className='bg-slate-900 w-full hs-screen m-auto px-4 grid lg:grid-cols-2 gap-4'>
@@ -24,7 +24,7 @@ export function About(): JSX.Element {
                     <p className='pb-6 text-white font-bold'>
                         I began working as a Software Developer for Thoughtworks Romania in 2022. Since then I grew a
                         lot in my role and became highly accomplished in many fields that relate to the domain we work
-                        in.
+                        in. I have worked on two projects during my time with Thoughtworks and I gained invaluable experience.
                     </p>
                     <div className='bg-slate-900 flex flex-row justify-between'>
                         <div>

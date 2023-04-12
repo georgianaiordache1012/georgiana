@@ -14,7 +14,7 @@ export function Experience(): JSX.Element {
                         Experience</p>
                     <p className='py-6'>I have relevant experience with the following technologies:</p>
                 </div>
-                <div ref={ref} className='w-full h-[30vh]'>
+                <div ref={ref} className='lg:w-full h-[30vh] sm:w-fit h-[30vh]'>
                     <ImageSlider />
                 </div>
         </div>

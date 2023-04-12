@@ -21,7 +21,7 @@ export function Contact(): JSX.Element {
                 </div>
                 <div className='flex flex-row justify-center justify-between items-center  h-[60vh]'>
                     <div>
-                        <img ref={parallaxX.ref} alt='notebook' className='w-40 h-40 pl-8' src={pic5}></img>
+                        <img ref={parallaxX.ref} alt='notebook' className='lg:pl-8 lg:w-40 lg:h-40' src={pic5}></img>
                     </div>
                     <form action="https://getform.io/f/adf4ddf5-f6a2-472d-ad3f-ab61db384f32"
                           method="POST"
@@ -39,7 +39,7 @@ export function Contact(): JSX.Element {
                         <button className='bg-indigo-900 text-white font-bold border-indigo-900'>Get in touch</button>
                     </form>
                     <div>
-                        <img ref={parallaxY.ref} alt='pen' className='w-40 h-40 pr-8' src={pic4}></img>
+                        <img ref={parallaxY.ref} alt='pen' className='lg:pr-8 lg:w-40 lg:h-40' src={pic4}></img>
                     </div>
                 </div>
         </div>

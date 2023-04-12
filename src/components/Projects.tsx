@@ -14,7 +14,7 @@ export function Projects(): JSX.Element{
     });
 
     return (
-        <div className='bg-slate-900 flex flex-row justify-between pt-8'>
+        <div className='bg-slate-900 flex flex-row justify-between pt-8 px-8'>
             <div className=' flex flex-col justify-between h-1/3 w-1/2 px-4'>
                 <h3 className='text-3xl md:text-5xl font-bold text-white'>OffWorks</h3>
                 <p className='text-1xl py-6 text-white italic border-b-2 p-1 inline border-indigo-900 font-bold py-4'>
@@ -28,7 +28,10 @@ export function Projects(): JSX.Element{
                 <p className='pb-6 text-white font-bold'>
                     Tech Stack included the following technologies:
                 </p>
-                <img ref={parallaxY.ref} alt='pic1' className='w-1/2 h-60' src={pic1}></img>
+                <p className='pb-6 text-white italic font-bold'>
+                    React, TypeScript, HTML, CSS, SQL, Docker, GCP.
+                </p>
+                <img ref={parallaxY.ref} alt='pic1' className='lg:w-1/2 lg:h-60 sm:w-1/2 sm:h-20' src={pic1}></img>
             </div>
             <div className='bg-slate-900 flex flex-col justify-between h-1/3 w-1/2 px-4'>
                 <h3 className='text-3xl md:text-5xl font-bold text-white'>SitTaker</h3>
@@ -44,7 +47,10 @@ export function Projects(): JSX.Element{
                 <p className='pb-6 text-white font-bold'>
                     Tech Stack included the following technologies:
                 </p>
-                <img ref={parallaxX.ref} alt='pic2' className='w-1/2 h-60' src={pic2}></img>
+                <p className='pb-6 text-white italic font-bold'>
+                     React, TypeScript, HTML, CSS, Java, AWS
+                </p>
+                <img ref={parallaxX.ref} alt='pic2' className='lg:w-1/2 lg:h-60 sm:w-1/2 sm:h-20' src={pic2}></img>
             </div>
         </div>
     );
