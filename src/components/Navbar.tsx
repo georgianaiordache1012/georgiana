@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
-import {HiMenuAlt3} from 'react-icons/hi';
+import {HiMenuAlt3, HiOutlineMail} from 'react-icons/hi';
 import {Link} from "react-scroll";
 import "../style/Navbar.css"
-import { FaTimes} from "react-icons/fa";
+import {FaGithub, FaLinkedin, FaTimes} from "react-icons/fa";
+import {BsFillPersonLinesFill} from "react-icons/bs";
 
 export function Navbar(): JSX.Element {
 
@@ -20,7 +21,9 @@ export function Navbar(): JSX.Element {
     return (
         <div className='absolute w-full hs-screen flex justify-between p-4 items-center'>
             <h1 className='text-white font-bold text-2xl z-20'> Passion for Technology </h1>
-            <HiMenuAlt3 onClick={handleNav} className='z-20 text-white cursor-pointer' size={25}/>
+            <div className='flex flex-row justify-between'>
+                <HiMenuAlt3 onClick={handleNav} className='z-20 text-white cursor-pointer' size={25}/>
+            </div>
             <div
                 className={
                     nav ? 'ease-in duration-300 fixed text-gray-300 right-0 top-0 w-1/2 h-screen bg-black/90 px-4 py-7 flex-col z-40'

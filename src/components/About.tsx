@@ -32,7 +32,7 @@ export function About(): JSX.Element {
                                     className='bg-indigo-900 text-white font-bold border-indigo-900'>Learn more
                             </button>
                         </div>
-                            <img src={pic3} alt='spinning coffee' className='animate-spin-pic w-54 h-32 px-32'></img>
+                        <p className='animate-spin-pic w-54 h-32 px-32 text-6xl' >⭐</p>
                     </div>
                 </div>
             </div>

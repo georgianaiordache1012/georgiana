@@ -1,6 +1,10 @@
 import React from 'react';
 import background from '../assets/background.jpg'
 import {Link} from "react-scroll";
+import SocialLinks from "./SocialLinks";
+import {FaGithub, FaLinkedin} from "react-icons/fa";
+import {HiOutlineMail} from "react-icons/hi";
+import {BsFillPersonLinesFill} from "react-icons/bs";
 
 export function Hero(): JSX.Element {
 
@@ -16,6 +20,7 @@ export function Hero(): JSX.Element {
             <div className='bg-black/20 absolute top-0 left-0 w-full h-screen' />
             <div className='absolute top-0 w-full h-full flex flex-col justify-center text-white'>
                 <div className='md:left-[10%] max-w-[1100px] font-bold m-auto absolute p-4'>
+
                     <p className='text-2xl'> Georgiana Iordache </p>
                     <h1 className='font-bold text-5xl md:text-7xl drop-shadow-2xl'>
                         {home}
@@ -32,6 +37,7 @@ export function Hero(): JSX.Element {
                         <Link activeClass="active" smooth spy to="contact"> Get in touch </Link>
                     </button>
                 </div>
+               <SocialLinks/>
             </div>
         </div>
     );
