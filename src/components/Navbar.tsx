@@ -1,9 +1,8 @@
 import React, {useState} from 'react';
-import {HiMenuAlt3, HiOutlineMail} from 'react-icons/hi';
+import {HiMenuAlt3} from 'react-icons/hi';
 import {Link} from "react-scroll";
 import "../style/Navbar.css"
-import {FaGithub, FaLinkedin, FaTimes} from "react-icons/fa";
-import {BsFillPersonLinesFill} from "react-icons/bs";
+import {FaTimes} from "react-icons/fa";
 
 export function Navbar(): JSX.Element {
 

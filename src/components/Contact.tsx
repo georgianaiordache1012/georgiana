@@ -2,10 +2,6 @@ import React from 'react';
 import pic5 from '../assets/pic5.png'
 import pic4 from '../assets/pic4.png'
 import {useParallax} from "react-scroll-parallax";
-import SocialLinks from "./SocialLinks";
-import {FaGithub, FaLinkedin} from "react-icons/fa";
-import {HiOutlineMail} from "react-icons/hi";
-import {BsFillPersonLinesFill} from "react-icons/bs";
 
 export function Contact(): JSX.Element {
 

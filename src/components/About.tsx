@@ -2,7 +2,6 @@ import avatar from '../assets/avatar.jpeg'
 import React, {useState} from "react";
 import {useParallax} from "react-scroll-parallax";
 import {Projects} from "./Projects";
-import pic3 from "../assets/pic8.jpeg";
 
 export function About(): JSX.Element {
     const [nav, setNav] = useState(false);

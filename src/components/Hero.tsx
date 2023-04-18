@@ -2,9 +2,6 @@ import React from 'react';
 import background from '../assets/background.jpg'
 import {Link} from "react-scroll";
 import SocialLinks from "./SocialLinks";
-import {FaGithub, FaLinkedin} from "react-icons/fa";
-import {HiOutlineMail} from "react-icons/hi";
-import {BsFillPersonLinesFill} from "react-icons/bs";
 
 export function Hero(): JSX.Element {
 
