@@ -3,10 +3,11 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import reactImage from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
-import java from "../assets/java.png";
+import java from "../assets/java.jpg";
 import aws from "../assets/aws.png";
 import ts from "../assets/Typescript-02.png";
 import postgres from "../assets/Postgresql_elephant.svg.png";
+import gcp from "../assets/gcp.png";
 
 export const CarouselData = [
     {
@@ -70,6 +71,13 @@ export const CarouselData = [
         src: postgres,
         title: 'PostgreSQL',
         style: 'shadow-purple-500'
+
+    },
+    {
+        id: 10,
+        src: gcp,
+        title: 'GCP',
+        style: 'shadow-red-500'
 
     },
 

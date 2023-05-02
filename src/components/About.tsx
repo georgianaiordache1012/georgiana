@@ -11,7 +11,7 @@ export function About(): JSX.Element {
     const {ref} = useParallax<HTMLDivElement>({speed: 10});
 
     return (<div>
-            <div id='about' className='bg-slate-900 w-full hs-screen m-auto px-4 grid lg:grid-cols-2 gap-4'>
+            <div id='about' className='bg-slate-900 flex flex-row justify-between w-full hs-screen m-auto px-4 grid lg:grid-cols-2 gap-4'>
                 <div ref={ref} className='h-[80vh]'>
                     <img className=' object-cover w-full h-full p-2' alt='avatar' src={avatar}></img>
                 </div>
@@ -31,8 +31,8 @@ export function About(): JSX.Element {
                                     className='bg-indigo-900 text-white font-bold border-indigo-900'>Learn more
                             </button>
                         </div>
-                        <p className='animate-spin-pic w-54 h-32 px-32 text-6xl' >⭐</p>
                     </div>
+                    {/*<div className='animate-spin-pic w-54 h-32 px-32 text-6xl' >⭐</div>*/}
                 </div>
             </div>
             {

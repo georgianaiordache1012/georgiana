@@ -14,7 +14,7 @@ export function Contact(): JSX.Element {
     });
 
     return (
-        <div id='contact' className='bg-slate-900 w-full hs-screen flex flex-col justify-between justify-center pt-16'>
+        <div id='contact' className='bg-slate-900 w-full hs-screen flex flex-col justify-between justify-center py-4'>
                 <div className='flex flex-col h-[30vh] justify-center text-white font-bold px-4'>
                     <p className='text-4xl md:text-5xl font-bold border-b-4 border-white-500 p-2 inline'>Contact</p>
                     <p className='py-6'>Complete the following form in order to get in touchwith me</p>

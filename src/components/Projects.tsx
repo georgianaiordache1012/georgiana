@@ -14,9 +14,9 @@ export function Projects(): JSX.Element{
     });
 
     return (
-        <div className='bg-slate-900 flex flex-row justify-between pt-8 px-8'>
+        <div className='bg-slate-900 flex flex-row justify-between py-2 px-8'>
             <div className=' flex flex-col justify-between h-1/3 w-1/2 px-4'>
-                <h3 className='text-3xl md:text-5xl font-bold text-white'>OffWorks</h3>
+                <h3 className='text-3xl font-bold text-white'>OffWorks</h3>
                 <p className='text-1xl py-6 text-white italic border-b-2 p-1 inline border-indigo-900 font-bold py-4'>
                     Design of a new application destined for enabling all the company employees to book a leave
                 </p>
@@ -29,12 +29,12 @@ export function Projects(): JSX.Element{
                     Tech Stack included the following technologies:
                 </p>
                 <p className='pb-6 text-white italic font-bold'>
-                    React, TypeScript, HTML, CSS, SQL, Docker, GCP.
+                    React, TypeScript, HTML, CSS, SQL, Java, Docker, GCP.
                 </p>
-                <img ref={parallaxY.ref} alt='pic1' className='lg:w-1/2 lg:h-60 sm:w-1/2 sm:h-20' src={pic1}></img>
+                <img ref={parallaxY.ref} alt='pic1' className='invisible lg:visible w-1/2 h-60' src={pic1}></img>
             </div>
             <div className='bg-slate-900 flex flex-col justify-between h-1/3 w-1/2 px-4'>
-                <h3 className='text-3xl md:text-5xl font-bold text-white'>SitTaker</h3>
+                <h3 className='text-3xl md:text-5xl font-bold text-white'>Sitter</h3>
                 <p className='text-1xl py-6 text-white italic border-b-2 p-1 inline border-indigo-900 font-bold py-4'>
                     Was charged with implementing a new project that would serve as a
                     learning basis for new junior developers joining the company.
@@ -48,9 +48,9 @@ export function Projects(): JSX.Element{
                     Tech Stack included the following technologies:
                 </p>
                 <p className='pb-6 text-white italic font-bold'>
-                     React, TypeScript, HTML, CSS, Java, AWS
+                     React, TypeScript, HTML, CSS, Java, AWS.
                 </p>
-                <img ref={parallaxX.ref} alt='pic2' className='lg:w-1/2 lg:h-60 sm:w-1/2 sm:h-20' src={pic2}></img>
+                <img ref={parallaxX.ref} alt='pic2' className='invisible lg:visible w-1/2 h-60' src={pic2}></img>
             </div>
         </div>
     );

@@ -42,7 +42,7 @@ const ImageSlider = () => {
                                     key={index}
                                     className={
                                         index === currentSlide
-                                            ? "object-center lg:w-40 lg:h-40 sm:w-20 sm:h-20"
+                                            ? "object-center w-40 h-40"
                                             : "hidden"
                                     }
                                 />
