@@ -1,8 +1,6 @@
 import React from "react";
 import ImageSlider from "./ImageSlider";
 
-import {useParallax} from "react-scroll-parallax";
-
 export function Experience(): JSX.Element {
 
     return (
