@@ -29,7 +29,7 @@ export function Projects(): JSX.Element{
                     Tech Stack included the following technologies:
                 </p>
                 <p className='pb-6 text-white italic font-bold'>
-                    React, TypeScript, HTML, CSS, SQL, Java, Docker, GCP.
+                    Angular, TypeScript, Java SE 8, Spring Framework, Microservices, REST API, SQL, Postgres, Redis, Docker and GCP.
                 </p>
                 <img ref={parallaxY.ref} alt='pic1' className='invisible lg:visible w-1/2 h-60' src={pic1}></img>
             </div>
@@ -48,7 +48,7 @@ export function Projects(): JSX.Element{
                     Tech Stack included the following technologies:
                 </p>
                 <p className='pb-6 text-white italic font-bold'>
-                     React, TypeScript, HTML, CSS, Java, AWS.
+                    Angular, TypeScript,  Java SE 8, Spring Framework, REST API, SQL, Postgres, Docker and GCP.
                 </p>
                 <img ref={parallaxX.ref} alt='pic2' className='invisible lg:visible w-1/2 h-60' src={pic2}></img>
             </div>

@@ -21,7 +21,7 @@ export function About(): JSX.Element {
                         I am a Full Stack Developer with professional experience
                     </p>
                     <p className='pb-6 text-white font-bold'>
-                        I began working as a Software Developer for Thoughtworks Romania in 2022. Since then I grew a
+                        I began working as a Software Developer for Thoughtworks Romania in 2021. Since then I grew a
                         lot in my role and became highly accomplished in many fields that relate to the domain we work
                         in. I have worked on two projects during my time with Thoughtworks and I gained invaluable experience.
                     </p>
